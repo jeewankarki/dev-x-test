@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Ui-Assets
+metadata:
+  name: dummy-component-button
+  description: Artist Lookup
+  tags:
+    - angular
+    - react
+spec:
+  type: ui-component
+  lifecycle: experimental
+  owner: team-a
+  system: artist-engagement-portal
+  dependsOn: ['resource:artists-db']

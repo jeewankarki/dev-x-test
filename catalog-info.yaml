@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-components
+  description: A collection of all Backstage example components
+spec:
+  targets:
+    - ./components/artist-lookup-componentPrasun.yaml
+    - ./components/petstore-componentPrasun.yaml
+    - https://github.com/Prasun117/Test-repo/blob/main/nested-catalog-test.yaml
+    
